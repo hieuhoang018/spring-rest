@@ -1,0 +1,41 @@
+# Handle line endings consistently
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.java text
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.md text
+*.txt text
+*.sql text
+*.gitignore text
+*.gitattributes text
+*.gradle text
+
+# Explicitly declare binary files
+*.class binary
+*.jar binary
+*.war binary
+*.ear binary
+*.iml binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.mp4 binary
+*.mp3 binary
+
+# IntelliJ and Maven wrapper
+.idea/* binary
+.mvn/wrapper/maven-wrapper.jar binary
+
+# Keep scripts with LF endings
+*.sh text eol=lf
